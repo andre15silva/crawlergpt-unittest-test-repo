@@ -19,13 +19,13 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(Calculator.sumFloat(1.0, 2.0), 3.0)
         self.assertEqual(Calculator.sumFloat(1.0, -1.0), 0.0)
 
-    # """
-    # Test the sum function
-    # """
-    # def test_sum(self):
-    #     self.assertEqual(Calculator.sum(1, 1), 2)
-    #     self.assertEqual(Calculator.sum(1, 2), 3)
-    #     self.assertEqual(Calculator.sum(1, -1), 0)
-    #     self.assertEqual(Calculator.sum(1.0, 1.0), 2.0)
-    #     self.assertEqual(Calculator.sum(1.0, 2.0), 3.0)
-    #     self.assertEqual(Calculator.sum(1.0, -1.0), 0.0)
+    """
+    Test the sum function
+    """
+    def test_sum(self):
+        self.assertEqual(Calculator.sum(1, 1), 2)
+        self.assertEqual(Calculator.sum(1, 2), 3)
+        self.assertEqual(Calculator.sum(1, -1), 0)
+        self.assertEqual(Calculator.sum(1.0, 1.0), 2.0)
+        self.assertEqual(Calculator.sum(1.0, 2.0), 3.0)
+        self.assertEqual(Calculator.sum(1.0, -1.0), 0.0)
